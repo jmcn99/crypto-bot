@@ -14,7 +14,7 @@ token = os.getenv('KEY')
 
 #Setup bot
 intents = disnake.Intents.default()
-bot = commands.Bot(command_prefix="!", description="test", intents=intents)
+bot = commands.Bot(command_prefix="!", description="test", intents=intents, test_guilds=[842134671181479998])
 
 
 #On ready:
